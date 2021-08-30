@@ -466,6 +466,7 @@
 }
 
 .footer {
+  width: 100%;
   background-color: #282828;
 }
 
@@ -763,6 +764,7 @@ body {
 
 .main {
   min-height: calc(100vh - 30px);
+  width: 100%;
 }
 
 .container {
