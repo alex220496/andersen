@@ -111,10 +111,6 @@ const tlS3 = gsap.timeline({
 
 
 // anim__section-for-who
-const charsAdd = () => {
-	
-	return tladd;
-}
 
 let btnR = () => {
 	const bntRotate = gsap.timeline({defaults :{ duration: 0.1 }, repeat: -1, repeatDelay: 5})
@@ -155,7 +151,6 @@ const tlS4 = gsap.timeline({
 			duration: 0.5
 		})	
 		.add(btnR)
-		.add(charsAdd);
 
 //add-task 
 const addTask = document.querySelector(".add-task")	
