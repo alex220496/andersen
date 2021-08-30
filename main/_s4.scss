@@ -1,0 +1,85 @@
+.section-for-whom {
+    display: flex;
+    padding-top: 131px;
+    position: relative;
+    top: 0;
+    left: 0;
+    .section-for-whom__bg {
+        background: url(../img/bgs4.png) center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+        padding-top: 5%;
+        padding-left: 19.6%;
+
+        .section-for-whom__title {
+            font-size: 20px;
+            letter-spacing: 2px;
+            line-height: 30px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Roboto"; 
+            text-transform: uppercase; 
+            padding-bottom: 75px;
+        }
+        .section-for-whom__button {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        color: #3a30f8;
+        font-weight: 700;
+        font-family: "Roboto";
+        width: 270px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        }
+
+        
+    }
+    .section-for-whom__img {
+        position: absolute;
+        top: 7.5%;
+        left: 38.2%;
+        width: 63.2%;
+    }
+
+
+}
+
+.section-for-whom__description {
+    padding-bottom: 100px;
+    .section-for-whom__text {
+        display: block;
+        width: 23%;
+        font-size: 18px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Roboto";
+        padding-bottom: 20px;
+         
+    }
+}
+
+
+// add task
+.add-task {
+    padding-top: 14%;
+    padding-left: 11%;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik Mono One";
+    cursor: pointer;
+    span {
+        display: inline-block;
+        position: relative;
+        z-index: 10;
+    }
+}
+

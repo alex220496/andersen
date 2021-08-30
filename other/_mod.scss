@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    min-height: calc(100vh - 30px);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;      
+}
+
+.row {
+        display: flex;
+        flex-wrap: wrap;      
+}
+
+.img--under{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+.img--over{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+.br-black {
+    border: 3px solid rgb(87, 87, 87);
+}

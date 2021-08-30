@@ -1,0 +1,53 @@
+@import "./other/misxins";
+
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+        .header__logo {
+            width: 100%;
+            flex: 0 0 50%;
+            margin: 30px 0 0;
+            
+        }
+        .header__menu {
+            width: 100%;
+            flex: 0 0 50%;
+            font-size: 20px;
+            display: flex;
+            justify-content: flex-end;
+            
+
+           
+        }
+
+}
+
+// header__menu
+
+.header__item{
+                
+    margin: 44px 0 0;
+    list-style-type: none;
+    padding-left: 72px;
+
+    .header__link {
+        width: 100%;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #000000;
+        font-weight: 700;
+        font-family: "Roboto";
+        display: flex;
+        flex-wrap: nowrap;
+        display: block;
+        &:hover {
+            transition: ease-in-out 0.2s;
+            border-bottom: 1px solid blue;
+        }
+    }
+}
+

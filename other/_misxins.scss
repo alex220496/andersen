@@ -1,0 +1,10 @@
+@mixin f-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin col {
+    padding-left: 15px;
+    padding-right: 15px;
+}

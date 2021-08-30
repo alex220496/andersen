@@ -1,0 +1,48 @@
+
+
+.section-bg {
+    background: url(../img/saw.png) no-repeat;
+    background-position: 0 -15%;
+    width: 100%;
+    height: 875px;
+}
+
+.section-entry__video {
+    width: 100%;
+    position: relative;
+    .section-entry__img {
+        width: 55.6%;
+        padding-top: 1.5%;
+        right: 0;
+    }
+    .section-entry__img2 {
+        width: 6%;
+        left: 40.4%;
+        padding-top: 5.3%;
+    }
+    .section-entry__img3 {
+        width: 34.25%;
+        left: 19.6%;
+        top: 32%;
+    }
+    .section-entry__description {
+        width: 34.25%;
+        margin-left: 19.2%;
+        margin-top: 27.25%;
+        font-size: 20px;
+        letter-spacing: 1.6px;
+        line-height: 30px;
+        color: #000000;
+        font-weight: 700;
+        font-family: "Roboto";
+        text-transform: uppercase;
+    }
+    .section-entry__arrow {
+        margin-left: 20.8%;
+        margin-top: 32.2%;
+    }
+    
+    
+}
+
+

@@ -1,0 +1,74 @@
+.section-modes {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+
+    
+}
+// WRAPPER
+.section-modes__wrapper {
+    padding-left: 19.1%;
+    padding-top: 7.7%;
+    flex: 0 0 44.2%;
+   .section-modes__description {
+        padding-bottom: 80px;
+        
+    } 
+}
+
+.text-bold {
+            font-weight: 700;
+}
+
+.section-modes__characteristic {
+    display: flex;
+        .section-modes__speed {
+            padding-right: 75px;
+        }
+}
+
+// VIDEO
+
+.section-modes__video {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 55.8%;
+    
+        .section-modes__bord {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding-top: 7.1%;
+            width: 99.1%;
+            
+        }
+        .section-modes__arrow {
+            width: 23.5%;
+            top: 21.4%;
+            left: -18%;
+        }
+}
+
+
+// BLOCKS
+.number {
+    font-size: 60px;
+    letter-spacing: -4px;
+    color: #3a30f8;
+    font-weight: 400;
+    font-family: "Rubik Mono One";
+    span {
+        font-size: 30px;
+    }
+}
+
+.section-modes__text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #818181;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
