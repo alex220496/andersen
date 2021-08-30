@@ -58,7 +58,7 @@
 }
 
 .section-bg {
-  background: url(../img/saw.png) no-repeat;
+  background: url(img/saw.png) no-repeat;
   background-position: 0 -15%;
   width: 100%;
   height: 875px;
@@ -112,7 +112,7 @@
 }
 
 .section-benefits--bg {
-  background: url(../img/40RIzor.png) no-repeat;
+  background: url(../img/rIzor.png) no-repeat;
   background-position: 88.75% 0;
   width: 100%;
   padding-bottom: 170px;
@@ -126,7 +126,7 @@
   max-width: 38.7%;
   margin-top: 5.4%;
   height: 750px;
-  background: url(../img/section2.png) no-repeat center;
+  background: url(img/section2.png) no-repeat center;
   background-size: cover;
   margin-right: 15px;
 }
@@ -154,12 +154,12 @@
 .section-benefits__video .section-benefits--bg-hover .section-benefits__play {
   width: 14%;
   height: 15%;
-  background: url(../img/playy.png) center no-repeat;
+  background: url(img/playy.png) center no-repeat;
   background-size: 100%;
 }
 
 .section-benefits__video .section-benefits--bg-hover .section-benefits__play:hover {
-  background: url(../img/playhover.png) center no-repeat;
+  background: url(img/playhover.png) center no-repeat;
   background-size: 100%;
   -webkit-transition: ease 0.2s;
   transition: ease 0.2s;
@@ -391,7 +391,7 @@
 }
 
 .section-for-whom .section-for-whom__bg {
-  background: url(../main/section4.png) center no-repeat;
+  background: url(img/section4.png) center no-repeat;
   background-size: cover;
   width: 100%;
   height: 900px;

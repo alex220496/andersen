@@ -214,3 +214,30 @@ tabItemWrap.addEventListener("click", function(e){
 });
 // -----------------
 
+// Scroll to
+const sBenefits = document.querySelector(".scroll-benefits")
+const sModes = document.querySelector(".scroll-modes")
+const sForWho = document.querySelector(".scroll-for-who")
+
+const sForBenefits = document.querySelector(".section-benefits")
+const sForModes = document.querySelector(".section-modes")
+const sForSWho = document.querySelector(".section-for-whom")
+
+function scrollFor(e) {
+    window.scroll({
+        left: 0,
+        top: e.offsetTop,
+        behavior: "smooth"
+    })
+
+}
+
+sBenefits.addEventListener("click", function(e) {
+    scrollFor(sForBenefits)
+})
+sModes.addEventListener("click", function(e) {
+    scrollFor(sForModes)
+})
+sForWho.addEventListener("click", function(e) {
+    scrollFor(sForSWho)
+})

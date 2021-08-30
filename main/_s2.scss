@@ -4,7 +4,7 @@
     display: flex;
 }
 .section-benefits--bg {
-    background: url(../img/40RIzor.png) no-repeat;
+    background: url(../img/rIzor.png) no-repeat;
     background-position: 88.75% 0;
     width: 100%;
     padding-bottom: 170px;
@@ -18,7 +18,7 @@
     max-width: 38.7%;
     margin-top: 5.4%;
     height: 750px;
-    background: url(../img/section2.png) no-repeat center;
+    background: url(img/section2.png) no-repeat center;
     background-size: cover;
     margin-right: 15px;
     
@@ -35,11 +35,11 @@
         .section-benefits__play {
             width: 14%;
             height: 15%;
-            background: url(../img/playy.png)center no-repeat;
+            background: url(img/playy.png)center no-repeat;
             background-size: 100%;
 
                 &:hover {
-                    background: url(../img/playhover.png)center no-repeat;
+                    background: url(img/playhover.png)center no-repeat;
                     background-size: 100%;
                     transition: ease 0.2s;
                 }
